@@ -4,7 +4,13 @@ import MainTemplate from '../../templates/MainTemplate';
 const Main = () => (
   <MainTemplate>
     <h1>Home page</h1>
-    <p>Hi, my name is Mateusz Kocik, mail: matkot11@gmail.com</p>
+    <p>Hi, my name is Mateusz Kocik, email: matkot11@gmail.com</p>
+    <p>
+      To see working Google map click here:{' '}
+      <a href='https://innoloft.netlify.app/#/' target='_blank'>
+        Innoloft
+      </a>
+    </p>
     <p>
       I spent about 6.5 hour at this project. If I would have more time I would
       add theme provider, add delete option to categories and business models,

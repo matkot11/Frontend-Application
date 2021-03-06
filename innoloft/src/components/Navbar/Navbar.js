@@ -27,6 +27,7 @@ const Navbar = () => {
   const appData = useSelector(getAppIdData);
   return (
     <StyledWrapper color={appData.mainColor}>
+      {console.log(appData)}
       <StyledLink to='/'>
         {appData ? (
           <StyledImg src={appData.logo} alt='logo' />
