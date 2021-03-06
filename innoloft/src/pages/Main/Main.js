@@ -7,7 +7,7 @@ const Main = () => (
     <p>Hi, my name is Mateusz Kocik, email: matkot11@gmail.com</p>
     <p>
       To see working Google map click here:{' '}
-      <a href='https://innoloft.netlify.app/#/' target='_blank'>
+      <a href='https://innoloft.netlify.app/#/' target='_blank' rel="noreferrer">
         Innoloft
       </a>
     </p>
